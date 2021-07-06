@@ -8,13 +8,23 @@ h1 {
   font-size: 60px;
 }
 
+footer {
+  text-align: center;
+  background-color: #2c1c1c;
+  padding: 10px;
+}
+
+footer p {
+  color: honeydew;
+}
+
 .orange {
   color: orange;
 }
 
 .sec-flex {
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .half-width-int {
@@ -41,6 +51,25 @@ h1 {
   padding: 30px;
 }
 
+.recipe {
+  font-weight: 700;
+  text-align: center;
+}
+
+.rec-width {
+  width: 33%;
+  text-align: justify;
+  box-shadow: 18px 10px 55px gray;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.rec-width img {
+  width: 100%;
+}
+
 .link-button {
   text-decoration: none;
   color: whitesmoke;
@@ -54,8 +83,24 @@ h1 {
 }
 
 .banner {
-  background-image: url(images/ban.jpg);
+  background-image: url(images/ban1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 107%;
   background-position-y: -60px;
+}
+
+.dessert {
+  width: 50%;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding: 8px 10px;
+  margin-left: 20%;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  background-color: #ffe8d6;
+  border: 60px solid;
+  border-image-source: url(images/4bor.jpg);
+  border-image-repeat: round;
+  border-image-slice: 121 128 100 113;
 }
